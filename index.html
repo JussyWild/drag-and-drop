@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>drag-and-drop</title>
+
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <section class="drag-and-drop">
+            <h1>Drag And Drop</h1>
+
+            <div class="section-wrapper">
+                <div id="spawn-section" class="section">
+                    <div class="header">Spawn Section</div>
+                    <div class="container">
+                        <div id="element-creator"></div>
+                    </div>
+                </div>
+                <div id="fixed-section" class="section">
+                    <div class="header">Fixed Section</div>
+                    <div class="container container_fixed droppable"></div>
+                </div>
+                <div id="sticky-section" class="section">
+                    <div class="header">Sticky Section</div>
+                    <div class="container container_sticky droppable"></div>
+                </div>
+            </div>
+        </section>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
