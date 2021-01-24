@@ -14,7 +14,7 @@ body {
 .section-wrapper {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .section {
@@ -36,6 +36,7 @@ body {
 
 .container_fixed {
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .container_sticky {
