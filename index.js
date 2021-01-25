@@ -53,7 +53,7 @@ function onPointerDown(e) {
 
     document.addEventListener("pointermove", onPointerMove);
 
-    dragElement.onpointerup = function (event) {
+    dragElement.onpointerup = function(event) {
         document.removeEventListener("pointermove", onPointerMove);
         dragElement.onpointerup = null;
         dragElement.onpointerdown = null;
